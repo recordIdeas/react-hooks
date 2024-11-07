@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.breadcrumbs,
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1280px;
+}
+
+header {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header>.container {
+  display: flex;
+  align-items: center;
+}
+
+header>.container img {
+  vertical-align: middle;
+}
+
+header>.container h1 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+}
+
+.breadcrumbs {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+main>.container {
+  display: flex;
+  justify-content: center;
+}
